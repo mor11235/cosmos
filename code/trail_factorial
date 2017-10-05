@@ -1,0 +1,15 @@
+// solution 1, change x
+
+int find_trailing_zeros(int n){
+int log=0,i=1,add=5;
+while(n>=5){
+log=log+1;
+n=n/5;
+}
+for (i=1:1:log)
+{
+sum+=n/add;
+add*=5;
+}
+}
+
